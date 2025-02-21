@@ -1,0 +1,20 @@
+.ctn-portada {
+  width: 100%;
+  max-height: 800px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+.frase-portada {
+  position: absolute;
+  font-size: 70px;
+  color: white;
+  align-self: center;
+  text-shadow: 2px 2px 2px black;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}

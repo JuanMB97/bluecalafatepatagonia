@@ -1,0 +1,52 @@
+.ctn-postal-card {
+  width: 500px;
+  background-color: white;
+  box-shadow: 3px 7px 10px gray;
+}
+
+.ctn-postal-img {
+  display: flex;
+  width: 100%;
+}
+
+.title-postal {
+  margin-left: 5%;
+  font-size: 24px;
+}
+
+.ctn-postal-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.ctn-postal-info {
+  color: gray;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: small;
+}
+
+.info-data {
+  text-align: center;
+  height:max-content ;
+}
+
+.ctn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.ctn-icon img {
+  height: 32px;
+}
+
+.mas-info {
+  display: flex;
+  justify-content: center;
+}
+
+.mas-info a{
+  text-decoration: none;
+}

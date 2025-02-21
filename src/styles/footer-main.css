@@ -1,0 +1,64 @@
+.ctn-footer-main {
+  height: 400px;
+  background-color: #00CCFF;
+  margin-top: 10px;
+  color: white;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.footer-contacto {
+  width: 25%;
+}
+
+.ctn-contacto {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ctn-contacto img{
+  height: 32px;
+}
+
+
+.ctn-contacto p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ctn-contacto a {
+  text-decoration: none;
+}
+
+.ctn-contacto a:visited {
+  color: inherit;
+}
+
+.ctn-contacto a:hover {
+  text-decoration: underline;
+}
+
+.footer-permiso {
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-permiso img {
+  height: 200px;
+  width: 200px;
+}
+
+.ctn-footer-redes {
+  display: flex;
+  justify-content: center;
+}
+
+.derechos {
+  border-top: solid 1px #4e4e4d;
+  color: gray;
+  text-align: center;
+  padding-bottom: 5px;
+}
+

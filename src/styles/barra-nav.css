@@ -1,0 +1,91 @@
+.ctn-barra-nav {
+  top: 0;
+  position:fixed;
+  width: 100%;
+  align-content: center;
+  padding-top: 15px;
+  top: 0;
+  background: #00CCFF;
+  z-index: 999;
+}
+
+.ctn-logo-nav {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.ctn-barra-nav img {
+  transition: transform .8s ease-in-out;
+}
+
+.ctn-logo-nav img:hover  {
+ transform: rotate(360deg);
+}
+
+.ctn-nombre-nav {
+  display: flex;
+  justify-content: center;
+  color: rgb(254, 254, 254);
+}
+
+.ctn-secciones-nav {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.lista-nav {
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.lista-nav a {
+  text-decoration: none;
+  
+}
+
+.lista-nav a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lista-nav a:visited {
+  color: inherit;
+}
+
+.ctn-idioma {
+  position: absolute;
+  right: 0;
+  
+}
+
+.idioma {
+  display: flex;
+  gap: 5px;
+  padding: 0;
+}
+
+
+.radio-lang {
+  display: none;
+}
+
+.label-lang {
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+}
+
+#lang-es:checked ~ .langEs,
+#lang-en:checked ~ .langEn
+{
+  background-color: white;
+  color: #00CCFF;
+  border: 2px solid black;
+}

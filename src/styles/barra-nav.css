@@ -36,20 +36,21 @@
 }
 
 .lista-nav {
-  font-size: 18px;
+  font-size: 14px;
   list-style: none;
   display: flex;
   width: 100%;
   justify-content: space-around;
+  color: white;
 }
 
 .lista-nav a {
   text-decoration: none;
-  
+  font-weight: bold;
 }
 
 .lista-nav a:hover {
-  font-weight: bold;
+  text-decoration: underline;
   cursor: pointer;
 }
 

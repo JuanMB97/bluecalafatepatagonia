@@ -7,15 +7,16 @@ function CardTravel ({ title, imgUrl, info, price }) {
   const { language } = useContext(LanguageContext);
   const msj =`Hola queria consultar disponibilidad por ${title}`;
   const fechaHoy = new Date().toISOString().split("T")[0];
+  const linkWA = `http://wa.me/+5492966764900?text=${msj} el dia ${fechaHoy}`
 
-  const usdPrice = Math.round(price/1200);
+ 
+
   return (
     <div className='ctn-card-travel'  >
       <img src={`/src/assets/${imgUrl}`} alt="" />
       <h3 className='title-card'>{title}</h3>
       <div className='ctn-info'>
-        <p>{info?.duracion }</p>
-        <p>{info?.espera? 'Si': 'No'}</p>
+        <p>{info}</p>
         <p>{language}</p>
         <input 
           type="date" 
@@ -25,7 +26,7 @@ function CardTravel ({ title, imgUrl, info, price }) {
           defaultValue={fechaHoy}/>
         <p className='price'>ARS ${price}</p>
       </div>
-      <a href={`http://wa.me/+5492966764900?text=${msj}`}
+      <a href={linkWA}
         target="_blank" className='buttom-card'>Consultar / Reservar</a>
     </div>
   )

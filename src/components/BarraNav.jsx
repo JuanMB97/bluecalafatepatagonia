@@ -4,6 +4,7 @@ import { LanguageContext } from '../context/language.context';
 
 function BarraNav () {
   const { language, setLanguage } = useContext(LanguageContext);
+  // const [finalPrice, setFinalPrice] = useState(0);
 
   const toggleLang = () => {
     if (language === 'en'){
@@ -35,10 +36,10 @@ function BarraNav () {
       </div>
       <div className='ctn-secciones-nav'>
         <ul className='lista-nav'>
-          <li><a href='#'>Inicio</a></li>
-          <li><a href='#traslados'>Traslados</a></li>
-          <li><a href='#contacto'>Nosotros</a></li>
-          <li><a href='#contacto'>Contacto</a></li>
+          <li><a href='#'>INICIO</a></li>
+          <li><a href='#traslados'>TRASLADOS</a></li>
+          <li><a href='#contacto'>NOSOTROS</a></li>
+          <li><a href='#contacto'>CONTACTO</a></li>
         </ul>
       </div>
     </div>

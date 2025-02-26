@@ -2,23 +2,14 @@ export const tarjetas = [
   {
     id: 1,
     title: 'Aeropuerto',
-    info: { 
-      duracion: '20min',
-      destino: 'Directo a tu hotel',
-      pasajeros: '4 Max'
-    },
+    info: 'Hola',
     imgUrl: 'aeropuerto.jpg',
     price: 33000,
   },
   {
     id: 2,
     title: 'Glaciar Perito Moreno',
-    info: { 
-      duracion: '1hs',
-      destino: 'Directo a tu hotel',
-      pasajeros: '4 Max',
-      espera: true,
-    },
+    info:'',
     imgUrl: 'perito-card.jpg',
     price: 90000,
   },

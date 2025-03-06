@@ -2,20 +2,25 @@ export const tarjetas = [
   {
     id: 1,
     title: 'Aeropuerto',
-    info: 'Hola',
-    imgUrl: 'aeropuerto.jpg',
+    info: 'Traslado desde el Aeropuerto hasta su hotel en El Calafat, un recorrido por la RUTA 11 hacia el oeste (23 km) de duracion 20 minutos. Incluye: Informacion basica de actividades. Cantidad de pasajeros:1 a 4',
+    imgUrl: 'aeropuerto.jpeg',
     price: 33000,
   },
   {
     id: 2,
     title: 'Glaciar Perito Moreno',
-    info:'',
+    info:`Desde el calafate recorreras 50 km hacia la Cordillera de los Andes por la ruta 11 acompañados por el Lago Argentino. Cruzaremos por el río Centinela, y con el vistaje el 
+          cerro Frías. Luego ingresaremos al Parque Nacional apreciando durante 30 km el brazo Rico del Lago hasta llegar al mirador Suspiro. Finalmente nos dirigiremos hacia el 
+          sector de las pasarelas y realizar distintos recorridos.`,
     imgUrl: 'perito-card.jpg',
     price: 90000,
   },
   {
     id: 3,
     title: 'El Chalten',
+    info: `Desde su partida en la ciudad de El Calafate conoceras diversos rios que desembocan en el Lago Argentino. Continuamos el viaje por la ruta 40 sobre la estepa, 
+          hasta llegar al parador Le Leona, allí permanecemos 15 minutos, con la primera aparición del Lago Viedma y el cerro Fritz Roy. Una vez en El Chalten, nos trasladamos 
+          a 3 km para visitar el Chorrillo de Salto, una imponente cascada de 20 metros de altura sobre un hermoso bosque, luego podrán realizar caminatas libres por distintos senderos.`,
     imgUrl: 'fitz-roy.jpg',
     price: 200000,
   },
@@ -46,19 +51,19 @@ export const tarjetas = [
   {
     id: 8,
     title: 'Laguna Capri',
-    imgUrl: 'capri.jpg',
+    imgUrl: 'lagunacapri.jpeg',
     price: 23123,
   },
   {
     id: 9,
     title: 'Ushuaia',
-    imgUrl: 'entrada-ushuaia.jpeg',
+    imgUrl: 'ushuaia.jpeg',
     price: 23123,
   },
   {
     id: 10,
-    title: 'Laguna Torre',
-    imgUrl: 'lagunatorre.jpeg',
+    title: 'Laguna de los Tres',
+    imgUrl: 'lagunadelostres.jpeg',
     price: 23123,
   },
   {
@@ -69,8 +74,8 @@ export const tarjetas = [
   },
   {
     id: 12,
-    title: 'Laguna Torre',
-    imgUrl: 'lagunatorre.jpeg',
+    title: 'Punta Bandera',
+    imgUrl: 'puntabandera.JPG',
     price: 23123,
   },
 ];

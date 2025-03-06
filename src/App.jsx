@@ -6,7 +6,7 @@ import { BarraNav } from './components/BarraNav'
 import { Portada } from './components/Portada'
 import { FooterMain } from './components/FooterMain'
 import { tarjetas } from './db/cards-info'
-
+import { SectionMore } from './components/SectionMore'
 
 function App() {
 
@@ -26,12 +26,12 @@ function App() {
     <>
      <BarraNav/>
      <Portada />
-
+    {/* <p>Traslados</p> */}
      <div id='traslados' className='ctn-cards'>
       {datadb}
      </div>
-
-    <FooterMain></FooterMain>
+     <SectionMore/>
+     <FooterMain></FooterMain>
 
      {/* <FormPrincipal></FormPrincipal> */}
    

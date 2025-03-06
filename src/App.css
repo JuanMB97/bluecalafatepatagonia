@@ -2,8 +2,8 @@
   padding-top: 150px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
   gap: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 100%;
+  place-items: center;
+  padding-bottom: 15px;
 }

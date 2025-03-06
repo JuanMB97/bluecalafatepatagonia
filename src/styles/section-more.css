@@ -1,0 +1,47 @@
+.ctn-section-main {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 500px;
+    background-color: black;
+}
+
+.ctn-title-more {
+    display: flex;
+    padding-top: 0 ;
+    border: 1px solid white;
+}
+
+.title-more {
+    color: white;
+    font-size: 48px;
+    border: 1px solid green;
+}
+
+ .buttom-more {
+    appearance: none;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#button-back {
+    width: 100px;
+    height: 40px;
+  
+}
+
+
+#button-more {
+    width: 200px;
+    height: 50px;    
+}
+
+.ctn-btn-more {
+    height: 30px;
+    display: flex;
+    
+    justify-content: end;
+    
+}
+

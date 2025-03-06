@@ -5,7 +5,7 @@ function FooterMain () {
     <footer id='contacto' className='ctn-footer-main'>
       <div className='ctn-footer-redes'>
         <div className="footer-contacto">
-          <p>Contactos</p>
+          <p>Consultanos</p>
           <div className='ctn-contacto'>
             <img src="/src/assets/whatsapp.png" alt="" />
             <p>+549 2966626280</p>
@@ -22,7 +22,7 @@ function FooterMain () {
           <p>Ley 14.930</p>
         </div>
         <div className="footer-contacto">
-          <p>Nuestras Redes</p>
+          <p>Seguinos en nuestras redes</p>
           <div className='ctn-contacto'>
             <a href='https://www.instagram.com/bluecalafatepatagonia' target='blank'>
               <img src="/src/assets/instagram.png" alt="" />
@@ -35,7 +35,7 @@ function FooterMain () {
       </div>
       <div className="derechos">
         <p>Todos los derechos reservados &#169;</p>
-        <p>Masadi Company</p>
+        
       </div>
      
     </footer>

@@ -14,6 +14,7 @@ function App() {
     return (
     <CardTravel
       key={e.id}
+      id={e.id}
       title={e.title.toLocaleUpperCase()}
       info={e.info}
       imgUrl={e.imgUrl}

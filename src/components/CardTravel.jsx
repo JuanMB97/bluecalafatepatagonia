@@ -3,13 +3,10 @@ import { useContext, useEffect, useState } from 'react';
 import { LanguageContext } from '../context/language.context';
 
 
-function CardTravel ({ title, imgUrl, info, price }) {
-  const { language } = useContext(LanguageContext);
-  const msj =`Hola queria consultar disponibilidad por ${title}`;
-  // const fechaHoy = new Date().toISOString().split("T")[0];
-  const linkWA = `http://wa.me/+5492966764900?text=${msj}`
+function CardTravel ({ id, title, imgUrl, info, price }) {
+  const { language, setCardId } = useContext(LanguageContext);
   const [finalPrice, setFinalPrice] = useState(price);
-
+  
   useEffect(() => {
     if( language === 'es'){
       setFinalPrice(`ARS $ ${price}`);
@@ -17,6 +14,10 @@ function CardTravel ({ title, imgUrl, info, price }) {
       setFinalPrice(`USD $${Math.round((price/1200))}`)
     }
   }, [language]);
+
+  const handleMore = () => {
+    setCardId(id);
+  };
   
   return (
     <div className='ctn-card-travel'  >
@@ -26,17 +27,9 @@ function CardTravel ({ title, imgUrl, info, price }) {
         <div className='ctn-info'>
           <p>{info}</p>
         </div>
-        {/* <input 
-            type="date" 
-            name="fecha-traslado" 
-            id="fecha-traslado" 
-            min={fechaHoy}
-            defaultValue={fechaHoy}/> */}
         <p className='price'>{finalPrice}</p>
-      </div>
-      <a href={linkWA}
-          target="_blank" className='buttom-card'>Consultar / Reservar
-        </a>
+      </div> 
+      <a href='#see-more' onClick={handleMore} className='buttom-card'>Ver mas</a>
     </div>
   )
 }

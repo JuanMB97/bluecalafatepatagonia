@@ -106,23 +106,6 @@
   font-weight: bold;
 }
 
-#fecha-traslado {
-  appearance: none;
-  color: #1D1D1D;
-  font-family: “Helvetica”, arial, sans-serif;
-  font-size: 16px;
-  border: none;
-  height: 30px;
-  
-  background: rgb(249, 248, 248);
-  padding: 4px;
-  display: inline-block;
-  visibility: visible;
-  width: 140px;
-  visibility: hidden;
-  
-}
-
 .ctn-card-travel:hover #fecha-traslado {
   visibility: visible;
 }

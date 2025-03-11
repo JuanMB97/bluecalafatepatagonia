@@ -5,6 +5,7 @@ export const tarjetas = [
     info: 'Traslado desde el Aeropuerto hasta su hotel en El Calafat, un recorrido por la RUTA 11 hacia el oeste (23 km) de duracion 20 minutos. Incluye: Informacion basica de actividades. Cantidad de pasajeros:1 a 4',
     imgUrl: 'aeropuerto.jpeg',
     price: 33000,
+    images: ['/src/assets/cartel-calafate.jpg', '/src/assets/paisaje-nevado.jpg', '/src/assets/estancia-cristina.jpg'],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -28,6 +29,7 @@ export const tarjetas = [
       place: "In/Out al hotel",
       help: "Informacion de actividades en la ciudad"
     },
+    images: [],
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const tarjetas = [
           a 3 km para visitar el Chorrillo de Salto, una imponente cascada de 20 metros de altura sobre un hermoso bosque, luego podrán realizar caminatas libres por distintos senderos.`,
     imgUrl: 'fitz-roy.jpg',
     price: 200000,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -50,6 +53,7 @@ export const tarjetas = [
     title: 'City Tour',
     imgUrl: 'city.jfif',
     price: 60000,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -63,6 +67,7 @@ export const tarjetas = [
     title: 'Safari Azul',
     imgUrl: 'safariazul.jpg',
     price: 104020,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -76,6 +81,7 @@ export const tarjetas = [
     title: 'Lago Roca',
     imgUrl: 'lagoroca.jpeg',
     price: 2304,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -89,6 +95,7 @@ export const tarjetas = [
     title: 'Laguna Torre',
     imgUrl: 'lagunatorre.jpeg',
     price: 23123,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -102,6 +109,7 @@ export const tarjetas = [
     title: 'Laguna Capri',
     imgUrl: 'lagunacapri.jpeg',
     price: 23123,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -115,6 +123,7 @@ export const tarjetas = [
     title: 'Ushuaia',
     imgUrl: 'ushuaia.jpeg',
     price: 23123,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -128,6 +137,7 @@ export const tarjetas = [
     title: 'Laguna de los Tres',
     imgUrl: 'lagunadelostres.jpeg',
     price: 23123,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -135,12 +145,14 @@ export const tarjetas = [
       place: "In/Out al hotel",
       help: "Informacion de actividades en la ciudad"
     },
+    images: [],
   },
   {
     id: 11,
     title: 'Laguna Torre',
     imgUrl: 'lagunatorre.jpeg',
     price: 23123,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",
@@ -148,12 +160,14 @@ export const tarjetas = [
       place: "In/Out al hotel",
       help: "Informacion de actividades en la ciudad"
     },
+    images: [],
   },
   {
     id: 12,
     title: 'Punta Bandera',
     imgUrl: 'puntabandera.JPG',
     price: 23123,
+    images: [],
     data: {
       starlink: "Servicio Starlink 🛰️", 
       duration: "20min de viaje",

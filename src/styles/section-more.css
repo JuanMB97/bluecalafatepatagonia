@@ -1,11 +1,14 @@
 .ctn-section-main {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5% 15%;
     background-color: black;
     gap: 0;
-    /* visibility: hidden; */
     height: 500;
+}
+
+.ctn-section-main:target {
+    scroll-margin-top: 105px;
 }
 
 .ctn-section-main-disabled {
@@ -16,13 +19,13 @@
 .ctn-title-more {
     display: flex;
     padding-top: 0 ;
-    border: 1px solid white;    
+    
 }
 
 .title-more {
     color: white;
     font-size: 48px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0px;
     text-align: center;
 }
@@ -77,11 +80,15 @@
 }
 
 .ctn-ext-info {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     height: 350px;
     width: 50%;
     color: white;
     gap:5px;
+}
+
+.ctn-ext-info p:hover {
+    text-shadow: 0 0 5px #00CCFF;
 }
 
 #fecha-traslado {
@@ -100,7 +107,9 @@
 }
 
 .ctn-ext-imgs {
-    border: 1px solid purple;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00CCFF;
+    
     height: 350px;
-    width: 50%;
+    
 }

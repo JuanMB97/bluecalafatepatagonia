@@ -1,0 +1,58 @@
+.container {
+
+}
+  
+.slider-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+  
+.slider {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 1px 2px 3px 4px hsla(0, 0%, 0%, 0.25);
+  border-radius: 10px;
+  scroll-snap-align: center;
+  height: 350px;
+  width: 500px;
+  
+}
+  
+.image {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  
+}
+  
+.slider-button {
+  background:none;
+  appearance: none;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+  color: white;
+  border: none;
+  font-size: 24px;
+  position: absolute;
+  bottom: 50%;
+  font-weight: bold;
+}
+
+#back {
+  left: 0;
+}
+
+#after {
+  right: 0;
+}
+
+
+.slider-button:hover {
+  cursor: pointer;
+}
+
+
+.slider-button:disabled {
+  color: red;
+}

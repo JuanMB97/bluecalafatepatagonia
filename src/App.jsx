@@ -31,6 +31,7 @@ function App() {
      <div id='traslados' className='ctn-cards'>
       {datadb}
      </div>
+    
      <SectionMore/>
      <FooterMain></FooterMain>
 

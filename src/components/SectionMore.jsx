@@ -6,7 +6,7 @@ import { tarjetas } from '../db/cards-info';
 import { CarruselMore } from './CarruselMore';
 function SectionMore() {
 
-    const { cardId } = useContext(LanguageContext);
+    const { cardId, setCardId } = useContext(LanguageContext);
     const [activeClass, setActiveClass] = useState("ctn-section-main-disabled");
 
     // traemos los datos de la tarjeta
@@ -25,15 +25,16 @@ function SectionMore() {
 
     const buttonBack = () => {
         setActiveClass('ctn-section-main-disabled');
+        setCardId(0);
     };
 
     return (
         <section className={activeClass} id='see-more'>
             <div className='ctn-title-more'>
-                <a className='buttom-more' id='button-back' onClick={buttonBack} href='#traslados'> Volver </a>
-        
+                <a className='button-more' id='button-back' onClick={buttonBack} href='#traslados'> Volver </a>
+                <p className="title-more"> { infoCard?.title } </p> 
             </div>
-            <p className="title-more"> { infoCard?.title } </p> 
+           
 
             <div className="ctn-ext-ctn">
                 <div className="ctn-ext-info">
@@ -58,7 +59,7 @@ function SectionMore() {
             </div>    
            
             <div className='ctn-btn-more'>
-                <a className='buttom-more' id='button-more' href={linkWA}>Consultar / Reservar</a>
+                <a className='button-more' id='button-request' href={linkWA} target='_blank'>Consultar / Reservar</a>
             </div>
         </section>
     );

@@ -5,6 +5,7 @@
     background-color: black;
     gap: 0;
     height: 500;
+    margin: 0;
 }
 
 .ctn-section-main:target {
@@ -19,7 +20,8 @@
 .ctn-title-more {
     display: flex;
     padding-top: 0 ;
-    
+    align-items: center;
+   
 }
 
 .title-more {
@@ -28,9 +30,11 @@
     /* border: 1px solid green; */
     margin: 0px;
     text-align: center;
+    width: 100%;
+    
 }
 
- .buttom-more {
+ .button-more {
     color: white;
     appearance: none;
     border: white solid 1px;
@@ -50,20 +54,23 @@
     height: 40px;
 }
 
-
-#button-more {
+#button-request {
     width: 200px;
     height: 50px;
     box-shadow: 0 0 5px #00CCFF, 0 0 15px #00CCFF; 
-    border: none;
+ 
     transition: ease-in-out .1s;
-    color: white;
+
 }
 
-#button-more:hover{
-    /* background-color: cyan; */
-    transform: scaleX(1.03);
+
+.button-more:hover{
+    background-color: white;
+    color: black;
 }
+
+
+
 
 .ctn-btn-more {
     height: 50px;
@@ -77,6 +84,7 @@
     display: flex;
     width: 100%;
     height: 400px;
+    padding-top: 5%;
 }
 
 .ctn-ext-info {
@@ -88,7 +96,7 @@
 }
 
 .ctn-ext-info p:hover {
-    text-shadow: 0 0 5px #00CCFF;
+    text-shadow: 0 0 3px #00CCFF;
 }
 
 #fecha-traslado {
@@ -109,7 +117,5 @@
 .ctn-ext-imgs {
     border-radius: 10px;
     box-shadow: 0 0 5px #00CCFF;
-    
     height: 350px;
-    
 }

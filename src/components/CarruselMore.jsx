@@ -1,5 +1,5 @@
 import './../styles/carrusel-more.css';
-import { useState } from 'react';
+import { useState, useRef} from 'react';
 function CarruselMore ({images}) {
 
     const [disabledBack, setDisabledBack] = useState(true);
@@ -28,6 +28,7 @@ function CarruselMore ({images}) {
         }
         setDisabledBack(false);      
     };
+
 
     return (
         <section className="container">

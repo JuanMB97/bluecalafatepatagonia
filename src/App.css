@@ -1,12 +1,12 @@
+
 .ctn-cards {
-  padding-top: 150px;
+  padding: 10vh 2vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  /* grid-template-columns: repeat(3, 1fr); */
-  gap: 20px;
-  width: 100%;
+  gap: 3vh;
+  justify-content: center;
   place-items: center;
-  padding-bottom: 75px;
+
 }
 
 
@@ -23,4 +23,8 @@
   aspect-ratio: 4/3;
   box-shadow: 0 0 20px #00CCFF;
 
+}
+
+@media(max-width: 768px) {
+  
 }

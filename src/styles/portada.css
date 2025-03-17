@@ -1,7 +1,6 @@
 .ctn-portada {
   width: 100%;
   max-height: 800px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
 }
@@ -17,4 +16,18 @@
   align-self: center;
   text-shadow: 2px 2px 2px black;
   font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+@media(max-width: 768px) {
+  .ctn-portada {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .img-portada {
+    object-fit: contain;
+    width: min-content;
+   
+  }
 }

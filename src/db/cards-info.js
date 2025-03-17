@@ -7,7 +7,7 @@ export const tarjetas = [
     price: 33000,
     images: ['/src/assets/cartel-calafate.jpg', '/src/assets/paisaje-nevado.jpg', '/src/assets/aeropuerto-avion.jpg'],
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink ", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -23,7 +23,7 @@ export const tarjetas = [
     imgUrl: 'perito-card.jpg',
     price: 90000,
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -41,7 +41,7 @@ export const tarjetas = [
     price: 200000,
     images: ['/src/assets/chalten-city.jpg', '/src/assets/chalten-cartel.jpg'],
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -54,8 +54,9 @@ export const tarjetas = [
     imgUrl: 'city.jfif',
     price: 60000,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -68,8 +69,9 @@ export const tarjetas = [
     imgUrl: 'safariazul.jpg',
     price: 104020,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink ", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -82,8 +84,9 @@ export const tarjetas = [
     imgUrl: 'lagoroca.jpeg',
     price: 2304,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -96,8 +99,9 @@ export const tarjetas = [
     imgUrl: 'lagunatorre.jpeg',
     price: 23123,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -109,9 +113,10 @@ export const tarjetas = [
     title: 'Laguna Capri',
     imgUrl: 'lagunacapri.jpeg',
     price: 23123,
+    info: '',
     images: ['/src/assets/capri.jpg'],
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -122,10 +127,23 @@ export const tarjetas = [
     id: 9,
     title: 'Ushuaia',
     imgUrl: 'ushuaia.jpeg',
+    info: `Tierra de lugares inolvidables comenzamos por el Norte a solo diez minutos nos encontramos con el camping Rio Olivia, lugar de descanso y fogones, tiene una historia subiendo el monte donde luego de una caminata nos encontramos con una maravillosa cascada llamada “El Velo de la Novia” verlo en fotos es lindo pero mas impresionante es poder captarla visualmente y es una cita infaltable a la cual no podes faltar. También nos encontramos con el primer Centro Invernal Valle de Lobos. Donde a dos horas de caminata se encuentra la bella Laguna Esmeralda. El centro cuenta con actividades invernales como trineo de perros siberianos motos de nieve y caminata de verano.
+
+Siguiendo camino el centro invernal Valle de Tierra Mayor donde se realiza Ski de fondo y en verano caminatas sobre el tradicional Glaciar Alvear el cual se encuentra sobre la cordillera.
+
+El clasico Cerro Castor el imponente es conocido por todos los apasionados por el Ski. Ya que ha sido cede de Mundiales de Ski.
+
+El impresionante Paso Garibaldi se destaca camino a Tolhuin donde a 400 metros de altura sobre el nivel del mar se deja descubrir el Lago Escondido antecediendo al avistaje del Lago Fagnano.
+
+Hacia el Sur de Ushuaia se encuentra  el tradicional Tren del Fin del Mundo. El cual guarda muchas historias para que puedan ser oidas mientras se ingresa al Parque Nacional Tierra del Fuego.
+
+También la Unidad Postal del Fin del Mundo, postal imperdible. Luego se encuentra el Cerro Guanaco, la emoción más fuerte del Parque es Bahía Lapataia fin de la ruta Nacional N° 3 y fin del Continente Americano foto que no podra faltar en su cámara o dispositivo móvil.
+
+​`,
     price: 23123,
     images: ['/src/assets/ushuaia-lejos.jpg', '/src/assets/ushuaia-cartel.jpg', '/src/assets/ushuaia-lago.jpg'],
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -138,8 +156,9 @@ export const tarjetas = [
     imgUrl: 'lagunadelostres.jpeg',
     price: 23123,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -153,8 +172,9 @@ export const tarjetas = [
     imgUrl: 'lagunatorre.jpeg',
     price: 23123,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",
@@ -168,8 +188,9 @@ export const tarjetas = [
     imgUrl: 'puntabandera.JPG',
     price: 23123,
     images: [],
+    info: '',
     data: {
-      starlink: "Servicio Starlink 🛰️", 
+      starlink: "Servicio Starlink", 
       duration: "20min de viaje",
       persons: "4 personas por auto",
       place: "In/Out al hotel",

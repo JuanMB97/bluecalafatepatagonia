@@ -4,7 +4,6 @@ import { LanguageContext } from '../context/language.context';
 
 function BarraNav () {
   const { language, setLanguage } = useContext(LanguageContext);
-  
 
   const toggleLang = (e) => {
     console.log(e.target);
@@ -24,9 +23,10 @@ function BarraNav () {
       <div className='ctn-nombre-nav'>
         BLUE CALAFATE PATAGONIA
       </div>
-      <div className="ctn-idioma">
-        <div className="idioma" onChange={toggleLang}>
-         
+
+      <div className='horizontal-nav'>
+        <div className="ctn-idioma" onChange={toggleLang}>
+          
           <input type="radio" name="lang" id="lang-es" value='Español' className='radio-lang'/>
           <label htmlFor="lang-es" className='label-lang langEs'>$ARS 🇦🇷 </label>
 
@@ -34,14 +34,14 @@ function BarraNav () {
           <label htmlFor="lang-en" className='label-lang langEn'>USD 💵</label>  
 
         </div>
-      </div>
-      <div className='ctn-secciones-nav'>
-        <ul className='lista-nav'>
-          <li><a href='#'>INICIO</a></li>
-          <li><a href='#traslados'>TRASLADOS</a></li>
-          {/* <li><a href='#contacto'>NOSOTROS</a></li> */}
-          <li><a href='#contacto'>CONTACTO</a></li>
-        </ul>
+       
+        <div className='ctn-secciones-nav'>
+          <ul className='lista-nav'>
+            <li><a href='#'>INICIO</a></li>
+            <li><a href='#traslados'>TRASLADOS</a></li>
+            <li><a href='#contacto'>CONTACTO</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   )

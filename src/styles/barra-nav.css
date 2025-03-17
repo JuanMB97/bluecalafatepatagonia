@@ -68,9 +68,6 @@
   right: 15px;
   top: 15px;
   overflow: hidden;
-}
-
-.idioma {
   display: flex;
   gap: 5px;
   padding: 0;
@@ -96,4 +93,87 @@
   background-color: white;
   color: #00CCFF;
   border: 2px solid black;
+}
+
+@media(max-width: 768px){
+  .ctn-barra-nav {
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: end; 
+    width: 100%; 
+    padding: 0;
+    padding-left: 2vh;
+    align-items: center;
+    gap: 1vh;
+  }
+
+  .ctn-nombre-nav {
+    font-size: 18px;
+    text-shadow: 0 0 15px blue;
+  }
+
+  .horizontal-nav {
+    position: fixed;
+    left: 0;
+    top: 10vh;
+    margin: 0;
+    padding: 0 1vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    background-color: #00CCFF;
+    font-size: 22px;
+  }
+
+  .ctn-secciones-nav {
+    width: 100%;
+    padding: 0;
+  }
+
+  .lista-nav {
+    padding: 1vh;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 24px;
+    border-bottom: 1px solid;
+  }
+
+  .lista-nav li {
+    margin: 0;
+    width: 100%;
+  }
+
+  .lista-nav a {
+    width: 100%;
+    color: white;
+  }
+
+  .lista-nav:hover a {
+    text-decoration: none;
+  }
+
+
+  .lista-nav a:visited {
+    color: inherit;
+  }
+
+  .ctn-idioma {
+    position: initial;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid white;
+  }
+
 }

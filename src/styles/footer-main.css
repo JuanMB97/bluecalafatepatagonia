@@ -1,19 +1,39 @@
 .ctn-footer-main {
-  height: 400px;
+  display: flex;
+  flex-direction: column;
   background-color: #00CCFF;
   color: white;
-  padding-top: 20px;
+  font-size: 20px;
   justify-content: center;
+  padding: 0 20%;
 }
 
+.ctn-footer-redes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ }
+
 .footer-contacto {
-  width: 25%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  padding: 3vh;
+}
+
+.name-icon{
+  position: absolute;
+  visibility: hidden;
 }
 
 .ctn-contacto {
   display: flex;
   gap: 10px;
   align-items: center;
+  justify-content: center;
+  
 }
 
 .ctn-contacto img{
@@ -21,38 +41,36 @@
 }
 
 
-.ctn-contacto p:hover {
-  text-decoration: underline;
+.ctn-contacto a:hover {
   cursor: pointer;
 }
 
 .ctn-contacto a {
+  display: flex;
   text-decoration: none;
+  align-items: center;
+  color: white;
 }
 
 .ctn-contacto a:visited {
   color: inherit;
 }
 
-.ctn-contacto a:hover {
-  text-decoration: underline;
-}
 
 .footer-permiso {
-  width: 25%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
 }
 
 .footer-permiso img {
+  object-fit: contain;
   height: 200px;
   width: 200px;
+  width: 100%;
 }
 
-.ctn-footer-redes {
-  display: flex;
-  justify-content: center;
-}
 
 .derechos {
   border-top: solid 1px #4e4e4d;
@@ -60,4 +78,48 @@
   text-align: center;
   padding-bottom: 5px;
 }
+
+#logo-facebook img{
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Estilos para celulares */
+/* @media(max-width: 768px){
+  .ctn-footer-redes {
+    margin: 0;
+    padding: 0 10%;
+    font-size: 16px;
+   
+  }
+
+  .footer-contacto {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+  }
+
+  .contacto-title {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .derechos {
+    font-size: 14px;
+    border-top: 0px;
+  }
+
+  .footer-permiso {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+
+
+
+} */
 
